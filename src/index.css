@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #000000;
+  --color-surface: #F5F5F7;
+  --color-surface-container: #FFFFFF;
+  --color-surface-container-high: #E8E8ED;
+  --color-on-surface: #1D1D1F;
+  --color-on-surface-variant: #86868B;
+
+  --font-headline: "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --shadow-apple: 0 4px 24px rgba(0, 0, 0, 0.04);
+  --shadow-apple-hover: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-body selection:bg-on-surface/10;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+  .apple-blur { 
+    backdrop-filter: saturate(180%) blur(20px); 
+    background-color: rgba(245, 245, 247, 0.72); 
+  }
+  
+  .gradient-text { 
+    background: linear-gradient(180deg, #1D1D1F 0%, #434344 100%); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  }
+
+  .btn-stitch-primary {
+    @apply bg-zinc-900 text-white px-5 py-1.5 rounded-full font-medium text-sm hover:opacity-80 active:scale-95 transition-all duration-200;
+  }
+
+  .btn-stitch-large {
+    @apply bg-black text-white px-10 py-5 rounded-full font-bold text-lg hover:scale-[1.02] active:scale-95 transition-all w-full md:w-auto;
+  }
+}
