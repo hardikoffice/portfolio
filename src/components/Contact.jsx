@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-5xl md:text-8xl font-black tracking-tighter leading-tight mb-12 gradient-text">LET'S START SOMETHING.</h2>
         <div className="flex flex-col md:flex-row justify-center items-center gap-6">
-          <a className="btn-stitch-large" href="mailto:contact@hardik.me">
+          <a className="btn-stitch-large" href="mailto:hardikoffice260706@gmail.com">
             Get in touch
           </a>
           <a className="bg-white text-on-surface px-10 py-5 rounded-full font-bold text-lg hover:bg-zinc-50 transition-colors border border-black/10 w-full md:w-auto" href="https://github.com/hardikoffice" target="_blank" rel="noreferrer">

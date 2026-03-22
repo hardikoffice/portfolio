@@ -14,7 +14,7 @@ const Navbar = () => {
           <a className="text-zinc-500 hover:text-zinc-800 transition-colors text-sm font-medium" href="https://github.com/hardikoffice" target="_blank" rel="noreferrer">GitHub</a>
           <a className="text-zinc-500 hover:text-zinc-800 transition-colors text-sm font-medium" href="https://www.linkedin.com/in/hardik-sharma26/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
-        <a className="btn-stitch-primary" href="mailto:contact@hardik.me">
+        <a className="btn-stitch-primary" href="mailto:hardikoffice260706@gmail.com">
           Connect
         </a>
       </div>
